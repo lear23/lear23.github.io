@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!--metadatos-->
+  <meta charset="utf-8">
+  <meta name="author" content="Israel Morales Lara">
+  <meta name="description" content="Portafolio de desarrollo web de IML">  
+  <meta name="keywords" content="HTML, CSS, Javascript, React">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--titulo-->
+  <title>IML desarrollo web front-end</title>
+  <!--favicon-->
+  <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!--icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!--css-->
+
+  <link href="style.css" rel="stylesheet">
+  <!--google-fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+
+
+</head>
+
+
+<body>
+  <!--barra de navegacion-->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/icono.png" width="50" alt="logo de la página web">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#testimonios">testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactos">Contactos</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!--seccion hero-->
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-imagen-desarrolador rounded-circle" src="imagenes/desarrollador-ejemplo.svg" alt="Foto de IML">
+      <h1>Hola, soy Israel morales Lara, más conocido como IML</h1>
+      <h2>Hello, I am Israel Morales Lara, most known as IML</h2>
+      <h3>Desarrollo sitios web y diseño de dibujos gráfico</h3>
+      <h4> I Develop websites and graphic design</h4>
+    </div>
+    <div class="hero-inferior">
+      <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg"
+        alt="Monitor, laptop y logos de HTML, css, Javscript y React">
+
+    </div>
+  </section>
+
+  <!--sobre mí-->
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo seccion-blanco">Conoce a IML</h2>
+      <p class="seccion-texto">Det är ett välkänt faktum att läsare distraheras av läsbar text på en sida när man skall
+        studera layouten.
+        Poängen med Lorem Ipsum är att det ger ett normalt ordflöde, till skillnad från "Text här, Text här", och ger
+        intryck av att vara läsbar text. Många publiseringprogram och webbutvecklare använder Lorem Ipsum som test-text,
+        och en sökning efter "Lorem Ipsum" avslöjar många webbsidor under uteckling. Olika versioner har dykt upp under
+        åren, ibland av olyckshändelse, ibland med flit (mer eller mindre humoristiska).</p>
+
+    </div>
+  </section>
+  <!--Experiencia-->
+  <section id="experiencia" class="experiencia seccion-clara">
+    <div class="contenedor text-center">
+      <div class="row">
+        <!--desarrollo web-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Desarrollo web</p>
+          <p> Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en
+            alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles.
+            Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro de que no hay nada avergonzante escondido
+            en el medio del texto. </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">Javascript</span>
+            <span class="badge text-bg-primary">React</span>
+          </div>
+        </div>
+        <!--Articulos-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Estudios</p>
+          <p>Todos los generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir trozos predefinidos
+            cuando sea necesario, haciendo a este el único generador verdadero (válido) en la Internet.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Desarrollo Web</span>
+            <span class="badge text-bg-primary">GitHub</span>
+            <span class="badge text-bg-primary">python</span>
+          </div>
+
+        </div>
+
+        <!--Estudiante-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-brush"></i>
+          <p class="experiencia-titulo">Artes Graficas</p>
+          <p>Usa un diccionario de mas de 200 palabras provenientes del latín, combinadas con estructuras muy útiles de
+            sentencias, para generar texto de Lorem Ipsum que parezca razonable. Este Lorem Ipsum generado siempre
+            estará libre de repeticiones, humor agregado o palabras no características del lenguaje, etc.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Photoshop</span>
+            <span class="badge text-bg-primary">Adobe illustrator</span>
+            <span class="badge text-bg-primary">Corel Draw</span>
+            <span class="badge text-bg-primary">clip studio</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!--proyectos-->
+
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+    <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente</h3>
+    <!--galeria de proyectos-->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!--proyecto1-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto1.png" proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 1</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="nooponer noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="nooponer noreferrer">
+                  <i class="bi bi-laptop-fill"></i>
+                </a>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!--proyecto2-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto2.png" proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 2</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="nooponer noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="nooponer noreferrer">
+                  <i class="bi bi-laptop-fill"></i>
+                </a>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!--proyecto3-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto3.png" proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 3</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="nooponer noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="nooponer noreferrer">
+                  <i class="bi bi-laptop-fill"></i>
+                </a>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!--proyecto4-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto4.png" proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 4</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="nooponer noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="nooponer noreferrer">
+                  <i class=" bi bi-brush-fill"></i>
+                </a>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!--proyecto5-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto5.png" proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 5</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="nooponer noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="nooponer noreferrer">
+                  <i class=" bi bi-brush-fill"></i>
+                </a>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!--proyecto6-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/proyecto6.png" proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 6</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="nooponer noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="nooponer noreferrer">
+                  <i class=" bi bi-brush-fill"></i>
+                </a>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="https://www.freecodecamp.org/news/search/?query=python" target="_blank" rel="nooponer noreferrer">
+      <button type="button" class="btn btn-info">Ver más proyectos <i
+          class="bi bi-arrow-right-circle-fill"></i></button>
+    </a>
+  </section>
+  <!--Articulos-->
+  <section id="articulos" class="articulos justify-conten-start">
+    <h2 class="seccion-titulo texto-negro">Articulos e imágenes</h2>
+    <div class="card">
+      <div class="card-header">
+        Más recientes
+      </div>
+      <ul class="list-group list-group-flush">
+        <a href="https://www.freecodecamp.org/news/search/?query=react" target="_blank" rel="nooponer noreferrer">
+          <li class="list-group-item">Aprende React Fácilmente con freecodecamp</li>
+        </a>
+
+        <a href="https://www.freecodecamp.org/news/search/?query=python" target="_blank" rel="nooponer noreferrer">
+          <li class="list-group-item">Python, como programar sin morir en el intento. </li>
+        </a>
+        <a href="https://www.freecodecamp.org/news/search/?query=github" target="_blank" rel="nooponer noreferrer">
+          <li class="list-group-item">Github y sus componentes</li>
+        </a>
+        <a href="https://www.youtube.com/watch?v=6cwfkCl8fwo" target="_blank" rel="nooponer noreferrer">
+          <li class="list-group-item">Total BEGINNERS guide to drawing in Clip Studio Paint</li>
+        </a>
+        <a href="https://www.youtube.com/watch?v=iH4KBFlOUXs" target="_blank" rel="nooponer noreferrer">
+          <li class="list-group-item">Photoshop CC - Grundkurs | Onlineutbildning</li>
+        </a>
+      </ul>
+      <div class="card-footer">
+        Card footer
+      </div>
+    </div>
+    <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="nooponer noreferrer">
+      <button type="button" class="btn btn-info">Más articulos aquí <i class="bi bi-arrow-right-circle"></i></button>
+    </a>
+  </section>
+  <!--testimonios-->
+  <section class="testimonios seccion-clara">
+    <h2 class="seccion-titulo">testimonios</h2>
+    <h3 class="seccion-descripcion">Estos son algunos de mis clientes</h3>
+    <!--carousel-->
+    <div id="testimonios" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.svg">
+            <p class="testimonio-texto"> "Un buen trabajo bien hecho, es un cliente contento" </p>
+            <div class="testimonio-info">
+              <p class="cliente">Juan García</p>
+              <p class="cargo">Gerente de proyectos de desarrolloweb</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.svg">
+            <p class="testimonio-verso">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+              adipisci velit..."</p>
+            <p class="testimonio-texto">"Det finns ingen som älskar smärta, som söker det och vill ha det, just för att
+              det är smärta..."</p>
+            <div class="testimonio-info">
+              <p class="cliente">Nina Karlsson</p>
+              <p class="cargo">Projectledare för webbutvecklares tecnology</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg">
+            <p class="testimonio-texto">There are many variations of passages of Lorem Ipsum available, but the majority
+              have suffered alteration in some form. </p>
+
+            <div class="testimonio-info">
+              <p class="cliente">Georges </p>
+              <p class="cargo">Website business manager</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!--contactos-->
+
+  <section id="contactos" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            Hablemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctame para empezar el proyecto de la página web de tus sueños
+          </div>
+          <div class="col-12 col-md-4 ">
+            <a href="mailto:learsi57@hotmail.com">
+              <button type="button">
+                Contactos
+                <i class="bi bi-envelope-at-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!--pie de pagina footer-->
+
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center ">
+    <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="logo del Portafolio">
+    <p class="footer-texto text-center">Crear y aprender cada día es mi forma de vida<br>Vamos a crear juntos tus sueños
+    </p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://twiter.com/freecodecampEs" target="_blank" rel="nooponer noreferrer">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" rel="nooponer noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/freecodecamp/" target="_blank" rel="nooponer noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" rel="nooponer noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="mailto:learsi57@hotmail.com" target="_blank" rel="nooponer noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="derechos-de-autor">Creado por IML (2023) &#169;</div>
+  </footer>
+
+
+
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
